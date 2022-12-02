@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32.18 30.27">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+    </style>
+  </defs>
+  <circle cx="16.09" cy="15.83" r="12.54"/>
+  <g>
+    <polygon class="cls-1" points="6.24 17.69 8.28 15.5 19.59 18.09 17.34 20.74 6.24 17.69"/>
+    <polygon class="cls-1" points="8.33 13.08 10.73 10.43 21.04 12.7 18.82 15.37 8.33 13.08"/>
+    <polygon class="cls-1" points="18.82 15.37 19.66 18.01 21.66 15.65 21.04 12.7 18.82 15.37"/>
+  </g>
+  <circle class="cls-1" cx="22.77" cy="18.83" r=".98"/>
+</svg>

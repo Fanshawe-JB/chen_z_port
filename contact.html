@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTACT</title>
+
+    <!-- link font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap" rel="stylesheet">
+
+    <!-- link main.css-->
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <!-- nav -->
+    <nav class="navList">
+        <img class="logo" src="images/logo.svg" alt="website logo">
+        <ul>
+            <li><a href="index.html"> <span>HOME</span></a></li>
+            <li><a href="about.html"> <span>ABOUT</span></a></li>
+            <li><a href="#portfolio"> <span>PORTFOLIO</span></a></li>
+            <li><a href="contact.html"> <span>CONTACT</span></a></li>
+        </ul>
+    </nav>
+
+    <div class="mobile">
+        <img class="logo" src="images/logo.svg" alt="website logo">
+        <input type="checkbox" id="overlay-input"/>
+        <label for="overlay-input" id="overlay-button"><span></span></label>
+        <div id="overlay">
+            <ul>
+                <li><a href="index.html"> <span>HOME</span></a></li>
+                <li><a href="about.html"> <span>ABOUT</span></a></li>
+                <li><a href="#portfolio"> <span>PORTFOLIO</span></a></li>
+                <li><a href="contact.html"> <span>CONTACT</span></a></li>
+            </ul>
+        </div>
+        </div>
+
+    <section class="contact">
+
+        <h1 class="heading"> contact <span>me</span> </h1>
+
+        
+        <div class="con_row">
+        
+            <div class="con_info">
+        
+                <h2>get in touch</h2>
+        
+                <p>Trying to reach out? come and fill out the form!</p>
+        
+                <div class="con_container">
+        
+                    <div class="contact_box">
+                        <div class="contact_info">
+                            <h3>email :</h3>
+                            <p>letstalk@zhihanc.com</p>
+                        </div>
+                    </div>       
+                </div>
+        
+            </div>
+        
+            <form action="scripts/send.php" method="POST" id="mail-form" class="mailer_form">
+        
+                <div class="inputBox mail_inputs">
+                    <input ref="fname" id="firstname" type="text" class="mail_input" name="firstname" placeholder="your name" required="required">
+                    <input ref="lname" type="text" id="lastname" class="mail_input" name="lastname" required placeholder="Enter Your Lastname." required="required">
+                </div>
+        
+                <div class="inputBox">
+                    <input ref="email" type="email" id="email" class="mail_input" name="email" required placeholder="Enter Your Email Address.">
+                    <input ref="phone" type="tel" value="tel" name="phone" class="mail_input" placeholder="Enter Your Phone Number">
+                </div>
+        
+                <textarea ref="message" name="message" id="message" class="message_input" cols="30" rows="10" placeholder="Enter Your Message."></textarea>
+        
+                <input  @click.prevent="processMail" type="submit" value="submit" class="nButton">
+        
+            </form>
+        
+        </div>
+
+        <section class="video_box">
+            <div class="player">
+                <video controls autoplay>
+                <source src="/images/demoReel.mp4" type="video/mp4" />
+                <!-- fallback content here -->
+                </video>
+            </div>
+        </section>
+        
+        </section>
+
+        
+
+    <!------footer start--------->
+	<footer>
+		<h4>ZHIHAN CHEN</h4>
+		<p>Come and learn more about me by clicking the following:</p>
+		<div class="social">
+			<a href="#"><i class="icon fa-brands fa-linkedin-in"></i></a>
+			<a href="#"><i class="icon fa-brands fa-instagram"></i></a>
+			<a href="#"><i class="icon fa-solid fa-envelope"></i></a>
+		</div>
+		<p class="end">CopyRight By Zhihan Chen</p>
+	</footer>
+
+
+    
+    <!-- load script tags at the bottom -->
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script src="js/main.js" type="module" defer></script>
+    <script src="js/contact.js" type="module" defer></script>
+</body>
+</html>

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zhihan Chen Portfolio</title>
+
+    <!-- link font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap" rel="stylesheet">
+
+    <!-- link main.css-->
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <!-- nav -->
+    <nav class="navList">
+        <img class="logo" src="images/logo.svg" alt="website logo">
+        <ul>
+            <li><a href="index.html"> <span>HOME</span></a></li>
+            <li><a href="about.html"> <span>ABOUT</span></a></li>
+            <li><a href="#portfolio"> <span>PORTFOLIO</span></a></li>
+            <li><a href="contact.html"> <span>CONTACT</span></a></li>
+        </ul>
+    </nav>
+
+    <div class="mobile">
+        <img class="logo" src="images/logo.svg" alt="website logo">
+        <input type="checkbox" id="overlay-input"/>
+        <label for="overlay-input" id="overlay-button"><span></span></label>
+        <div id="overlay">
+            <ul>
+                <li><a href="index.html"> <span>HOME</span></a></li>
+                <li><a href="about.html"> <span>ABOUT</span></a></li>
+                <li><a href="#portfolio"> <span>PORTFOLIO</span></a></li>
+                <li><a href="contact.html"> <span>CONTACT</span></a></li>
+            </ul>
+        </div>
+        </div>
+
+    <main id="app">
+        <section class="hero">
+            <!--<div class="heroImg">
+                <img src="images/placeholder.jpg" alt="my pic">
+            </div>-->
+        
+            <div class="content">
+                <h3>Hello, I am Zhihan Chen </h3>
+                <span>Graphic Designer</span>
+                <p>Make your idea possible, make the work easier. </p>
+                <a href="about_html" class="nButton">What I Do</a>
+            </div>
+        </section>
+    
+        <section class="about">
+            <div class="main_about">
+                <img src="images/pplPlaceholder.png">
+                <div class="about_text">
+                    <h2>About Me</h2>
+                    <h5>Designer</h5>
+                    <p>I am a Graphic Designer.I convey ideas by using various design elements for artistic or decorative effect. Develop overall layout and production designs for advertisements, brochures, magazines and corporate reports. I can help you make your website more interactive. I can provide clean code and a design that meets the requirements. Responsive design makes your website accessible to all users.</p>
+                    <a href="about_html" class="nButton">MORE</a>
+                </div>
+            </div>
+        </section>
+    
+        <section id="portfolio">
+    
+            <h1 class="heading"> <span>my</span> work </h1>
+            <div class="port_container">
+                <herothumbnail @loadlb="loadLightBox" v-for="hero in heroData" :hero="hero"></herothumbnail>
+            
+            </div>
+        </section>
+        <lightbox @closeLB="this.showLightBox = false" v-if="showLightBox" :hero="lightboxData"></lightbox>
+    
+    </main>
+    <!------footer start--------->
+	<footer>
+		<h4>ZHIHAN CHEN</h4>
+		<p>Come and learn more about me by clicking the following:</p>
+		<div class="social">
+			<a href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin-in"></i></a>
+			<a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+			<a href="contact.html"><i class="fa-solid fa-envelope"></i></a>
+		</div>
+		<p class="end">CopyRight By Zhihan Chen</p>
+	</footer>
+
+
+    
+    <!-- load script tags at the bottom -->
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script src="js/main.js" type="module" defer></script>
+    <script src="js/contact.js" type="module" defer></script>
+</body>
+</html>

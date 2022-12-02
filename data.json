@@ -1,0 +1,43 @@
+{
+    "portofolio1":{
+        "port_pic": "av_1.png",
+        "port_pic2": "avo_2.png",
+        "port_id": "0",
+        "port_name": "Avocado Music Mixer",
+        "port_group":"Designer: Zhihan Chen, Developer: Alexandra Lem",
+        "port_p": "This is an Avocado Music Mixer, compose your own tunes by dragging the avocados into the zone.",
+        "detail_p": "This is an Avocado Music Mixer, compose your own tunes by dragging the avocados into the zone. Drag avocados back into the bottom board if you want to stop a particular piece of music and click 'reset' if you want to return everything at once. Try different combinations to experience different feelings! Clone the project, cd to your directory/download, click the folder to open, click the HTML file to start the web page, and then you can start your happy musical journey with avocado. You can drag an avocado onto the plate to made up melody, depending on the avocado used, the music will vary. Create different music by changing the mix or order of avocado. Click the gray trash can on the right side of the plate to remove the avocado that have been placed in the plate and start editing again. Click the click button at the right side to play the music.",
+        "port_note": "To see more, visit: https://github.com/zhihannicolechen/Lem_Alexandra_Chen_Zhihan_MusicMixer"
+    },
+
+    "portofolio2":{
+        "port_pic": "laptop.png",
+        "port_pic2": "wall_UI.png",
+        "port_id": "1",
+        "port_name": "ThermoSecurity by HouseCon",
+        "port_group":"",
+        "port_p": "UI home control interface specially designed for ThermoSecurity. ",
+        "detail_p": "UI home control interface specially designed for ThermoSecurity. User interface design for weather apps usually focuses on providing information and clear ideas. Both visual and usability aspects need to be considered. An overly complex design will make people lose more important information, so try to keep the screen clean and tidy during the design, and ensure that the required information can be displayed on the main screen to the greatest extent."
+    },
+
+    "portofolio3":{
+        "port_pic": "lux_logo.png",
+        "port_pic2": "lux_web.png ",
+        "port_id": "2",
+        "port_name": "Lux Website",
+        "port_group":"Designer: Zhihan Chen, Krystal Furlani Developer: Hannah Di Renzo, Jessica Hernandez Botero",
+        "port_p": "LUX specializes in making businesses shine. Headshots, print marketing and coast-to-coast advertising are just the tip of the iceberg.",
+        "detail_p": "A responsive website for a professional design agency with an original logo and tagline. The website will include a fully animated video to advertise the startup. Notable features will be: an original video, an original logo and tagline, and custom functionality to showcase each team member. This website is written with HTML5, styled with CSS",
+        "port_note": "To see more, visit: https://github.com/jessirosyln/group6-bootcamp"
+    },
+    "portofolio4":{
+        "port_pic": "bottle_1.png",
+        "port_pic2": "bottleAll.jpg",
+        "port_id": "3",
+        "port_name": "Make Up Project",
+        "port_group":"",
+        "port_p": "Elin - The Beauty Product",
+        "detail_p": "As a skin care product, Elin wants to bring customers the best skin care experience. Elin mainly provides people with green tea extract aloe vera essential oils to repair their skin in a natural way. Because Elin products are characterized by aloe vera green tea extract, a series of natural elements (such as green tea and aloe vera) will appear in the video to remind the audience of our ingredients. At the same time, some skin care videos of models with good skin will appear, hoping to connect our products with healthy skin in this way. Because we hope to give consumers a professional and natural impression, we will use a lot of green scenery in the video to maintain consistency. At the end of the video, our LOGO appears to end the video and let the audience remember our LOGO and products",
+        "port_note": ""
+    }
+}
