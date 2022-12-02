@@ -18,9 +18,12 @@
     <link rel="stylesheet" href="css/main.css">
 </head>
 
+
 <body>
     <!-- nav -->
+    <h1 class="hidden">start of the portfolio</h1>
     <nav class="navList">
+        <h2 class="hidden">navbar start</h2>
         <img class="logo" src="images/logo.svg" alt="website logo">
         <ul>
             <li><a href="index.html"> <span>HOME</span></a></li>
@@ -32,7 +35,7 @@
 
     <div class="mobile">
         <img class="logo" src="images/logo.svg" alt="website logo">
-        <input type="checkbox" id="overlay-input"/>
+        <input type="checkbox" id="overlay-input">
         <label for="overlay-input" id="overlay-button"><span></span></label>
         <div id="overlay">
             <ul>
@@ -59,31 +62,35 @@
         </section>
     
         <section class="about">
+            <h2 class="hidden">about me section starts</h2>
             <div class="main_about">
-                <img src="images/pplPlaceholder.png">
+                <img src="images/pplPlaceholder.png" alt="my photo">
                 <div class="about_text">
-                    <h2>About Me</h2>
-                    <h5>Designer</h5>
+                    <h3>About Me</h3>
+                    <h4>Designer</h4>
                     <p>I am a Graphic Designer.I convey ideas by using various design elements for artistic or decorative effect. Develop overall layout and production designs for advertisements, brochures, magazines and corporate reports. I can help you make your website more interactive. I can provide clean code and a design that meets the requirements. Responsive design makes your website accessible to all users.</p>
                     <a href="about_html" class="nButton">MORE</a>
                 </div>
             </div>
         </section>
+
+
     
-        <section id="portfolio">
-    
-            <h1 class="heading"> <span>my</span> work </h1>
-            <div class="port_container">
-                <herothumbnail @loadlb="loadLightBox" v-for="hero in heroData" :hero="hero"></herothumbnail>
+        <h2 class="hidden">portfolio part starts</h2>
+        <h3 class="heading"> <span>my</span> work </h3>
+        <section id="portfolio" class="port_container">
+            <h4 class="hidden"> portfolio display</h4>
+
+                <herothumbnail  @loadlb="loadLightBox" v-for="hero in heroData" :hero="hero"></herothumbnail>
             
-            </div>
         </section>
         <lightbox @closeLB="this.showLightBox = false" v-if="showLightBox" :hero="lightboxData"></lightbox>
     
     </main>
     <!------footer start--------->
+    <h2 class="hidden">footer starts</h2>
 	<footer>
-		<h4>ZHIHAN CHEN</h4>
+		<h3>ZHIHAN CHEN</h3>
 		<p>Come and learn more about me by clicking the following:</p>
 		<div class="social">
 			<a href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin-in"></i></a>
@@ -97,7 +104,7 @@
     
     <!-- load script tags at the bottom -->
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
-    <script src="js/main.js" type="module" defer></script>
-    <script src="js/contact.js" type="module" defer></script>
+    <script src="js/main.js" type="module"></script>
+    <script src="js/contact.js" type="module"></script>
 </body>
 </html>

@@ -8,7 +8,7 @@ import Lightbox from './components/TheLightboxComponent.js';
     createApp({
         created() {
             //fetch calls always go here --- retrieve any data you need
-            fetch('./data.json') //go get data
+            fetch('./scripts/json.php')//go get data
             .then(res => res.json()) //convert the json objects to plain JS object
             .then(data => this.heroData = data) //store the data 
             .catch(error => console.error(error)); // report any errors 
