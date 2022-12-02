@@ -17,7 +17,7 @@ import { SendMail } from "./components/mailer.js";
 
                 // show a failure message in the UI
                 // use this.$refs to connect to the elements on the page and mark any empty fields/inputs with an error class
-                alert('failure! and if you keep using an alert, DOUBLE failure!');        
+                //alert('failure! and if you keep using an alert, DOUBLE failure!');        
                 // show some errors in the UI here to let the user know the mail attempt was successful
 
                 // DO NOT USE THIS ALERT METHOD. or it's a big fat 0
@@ -27,7 +27,7 @@ import { SendMail } from "./components/mailer.js";
 
             processMailSuccess(result) {
                 // show a success message in the UI
-                alert("success! but don't EVER use alerts. They are gross.");        
+                //alert("success! but don't EVER use alerts. They are gross.");        
                 // show some UI here to let the user know the mail attempt was successful
                 // DO NOT USE THIS ALERT METHOD. or it's a big fat 0
 

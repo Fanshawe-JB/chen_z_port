@@ -53,13 +53,13 @@
     border-radius:20px;
     background: #191919;
     color: #ffffff;
-    box-shadow: $dropshadow;
+    box-shadow: 0 .5rem 1rem #4e4433;
 }
 
 .abt_box2:hover
 {
     transition: 2s;
-    transform: scale(90%);
+    transform: scale(1.2);
 }
 
 .abt_box2 h3
@@ -79,7 +79,7 @@
 {
     padding: 4rem;
     background: #191919;
-    box-shadow: $dropshadow;
+    box-shadow: 0 .5rem 1rem #4e4433;
 }
 
 .skills h2
@@ -146,6 +146,17 @@
 .sec p
 {
     background-color: #ffffff;
+}
+
+.video_box
+{
+    display: flex;
+    margin: 2rem;
+}
+
+.video_box video
+{
+    width: 100%;
 }
 
 

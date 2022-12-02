@@ -51,14 +51,12 @@ ______________________________________*/
 {
     flex: 1 1;
     float: left;
-    //justify-content: center;
-    //text-align: center;
+
 }
 
 .content h3
 {
     font-size: 2.3rem;
-    //font-family: $head_font;
     padding-bottom: .5rem;
 }
 
@@ -66,7 +64,6 @@ ______________________________________*/
 {
     font-size: 1.5rem;
     color: white;
-    //font-weight: 800;
     display: block;
 }
 
@@ -109,14 +106,14 @@ ______________________________________*/
 	justify-content: center;
     background-color: #191919;
 }
-.about_text h2
+.about_text h3
 {
 	color: white;
 	font-size: 75px;
 	margin-bottom: 20px;
     background-color: #191919;
 }
-.about_text h5
+.about_text h4
 {
 	color: white;
 	letter-spacing: 2px;
