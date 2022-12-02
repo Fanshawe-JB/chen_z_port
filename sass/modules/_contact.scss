@@ -1,0 +1,98 @@
+.contact
+{
+    padding: 6rem;
+}
+
+.con_row
+{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.con_info
+{
+    width:25rem;
+    padding: 2rem;
+}
+
+.con_info h2
+{
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: white;
+    padding-bottom: 1rem;
+}
+
+.con_info p
+{
+    font-size: 1.5rem;
+    line-height: 2;
+    padding:1rem 0;
+}
+
+.con_contianer
+{
+    padding: 2rem 0;
+}
+
+.contact_box
+{
+    display: flex;
+    gap: 2rem;
+    padding: 1rem 0;
+}
+
+.contact_box i
+{
+    font-size: 3rem;
+}
+
+.contact_box h3
+{
+    font-size: 2rem;
+}
+
+
+form{
+    flex:1 1 30rem;
+
+    .inputBox{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+
+      input{
+        width:49%;
+      }
+    }
+
+    .inputBox input,
+    textarea{
+      border-radius: 5rem;
+      padding:1rem 1rem;
+      font-size: 1rem;
+      background-color: white;
+      text-transform: none;
+      margin:.4rem 0;
+    }
+
+    textarea{
+      width:100%;
+      border-radius: 1rem;;
+      resize: none;
+      height: 25rem;
+    }
+
+    .con_button{
+      padding:1rem 3rem;
+      cursor: pointer;
+
+
+      &:hover{
+        background: white;
+        color: black;
+      }
+    }
+}
