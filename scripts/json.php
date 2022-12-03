@@ -13,7 +13,7 @@
     //$getContent = getAll('tbl_marvel');
 
     //Return Single Result
-    $getContent = getSingle('tbl_portflio', 'port_id', '2');
+    $getContent = getAll('tbl_portoflio', 'port_id', '2');
 
 
    // $grpResult = "";

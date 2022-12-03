@@ -2,7 +2,7 @@
     "portofolio1":{
         "port_pic": "av_1.png",
         "port_pic2": "avo_2.png",
-        "port_id": "0",
+        "port_id": "1",
         "port_name": "Avocado Music Mixer",
         "port_group":"Designer: Zhihan Chen, Developer: Alexandra Lem",
         "port_p": "This is an Avocado Music Mixer, compose your own tunes by dragging the avocados into the zone.",
@@ -13,7 +13,7 @@
     "portofolio2":{
         "port_pic": "laptop.png",
         "port_pic2": "wall_UI.png",
-        "port_id": "1",
+        "port_id": "2",
         "port_name": "ThermoSecurity by HouseCon",
         "port_group":"",
         "port_p": "UI home control interface specially designed for ThermoSecurity. ",
@@ -23,7 +23,7 @@
     "portofolio3":{
         "port_pic": "lux_logo.png",
         "port_pic2": "lux_web.png ",
-        "port_id": "2",
+        "port_id": "3",
         "port_name": "Lux Website",
         "port_group":"Designer: Zhihan Chen, Krystal Furlani Developer: Hannah Di Renzo, Jessica Hernandez Botero",
         "port_p": "LUX specializes in making businesses shine. Headshots, print marketing and coast-to-coast advertising are just the tip of the iceberg.",
@@ -33,7 +33,7 @@
     "portofolio4":{
         "port_pic": "bottle_1.png",
         "port_pic2": "bottleAll.jpg",
-        "port_id": "3",
+        "port_id": "4",
         "port_name": "Make Up Project",
         "port_group":"",
         "port_p": "Elin - The Beauty Product",
