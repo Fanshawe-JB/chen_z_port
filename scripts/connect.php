@@ -5,12 +5,10 @@
     ini_set('display_errors', 1);
     error_reporting(E_ALL);
 
-    $user = "zhiha965_zhihan";
-    $pass = "yuwenzhou0203"; // For WAMP
+  
     //$pass = "root"; // For MAMP
     $url = "localhost";
     // Change the database name for each site
-    $db = "zhiha965_chen_z_portfolio";
 
     // Connect to db
     //$link = mysqli_connect($url, $user, $pass, $db, "8888"); //Mac
