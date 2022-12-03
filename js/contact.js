@@ -14,6 +14,9 @@ import { SendMail } from "./components/mailer.js";
             // processMailFailure & processMailSuccess have be concered.
             
             processMailFailure(result) {
+                let fields = JSON.parse(result.message);
+                this.$refs.button.classList.add('error');
+                fields.message.forEach(field => { this.$refs[field].classList.add('error'); })
 
                 // show a failure message in the UI
                 // use this.$refs to connect to the elements on the page and mark any empty fields/inputs with an error class
@@ -26,6 +29,8 @@ import { SendMail } from "./components/mailer.js";
             },
 
             processMailSuccess(result) {
+                this.$refs.button.classList.add('success');
+                fields.message.forEach(field => { this.$refs[field].classList.add('success'); })
                 // show a success message in the UI
                 //alert("success! but don't EVER use alerts. They are gross.");        
                 // show some UI here to let the user know the mail attempt was successful
